@@ -2,11 +2,10 @@
 
 **Created by Ahmed ([AhmedB03](https://github.com/AhmedB03))** with [Uncharted](https://github.com/AhmedB03/uncharted).
 
-> **Invented and built by AI, published by a human.** Ahmed built and ran Uncharted, a system that
+>  I built and ran Uncharted, a system that
 > finds technique combinations that make sense but that no existing project combines. A language model
 > (Claude Sonnet 5.5) designed this project from one such combination, and another (Claude Haiku 5.5) wrote
-> the code and iterated until its own test suite passed. Ahmed chose it for publication; no human
-> wrote the code line by line. Treat it as an experiment.
+> the code and iterated until its own test suite passed. I chose it for publication;
 
 GradLens keeps a text file of small math definitions incrementally parsed as you edit it, and reverse-mode differentiates the syntax tree itself, so every variable and literal occurrence in the source gets its own ∂output/∂occurrence value at its current text offset. It is for people building live sensitivity or what-if tooling, or editor integrations, for numeric DSLs.
 
